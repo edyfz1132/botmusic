@@ -6,7 +6,7 @@ const commando = require(`discord.js-commando`);
 
 const config = require('./config.json');
 const bot = new commando.Client({
-    commandPrefix:'mass!'
+    commandPrefix:'_'
 });
 
 const cmdsArray = [
